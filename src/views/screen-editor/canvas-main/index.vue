@@ -77,7 +77,7 @@ export default defineComponent({
         backgroundColor: pageConfig.value.bgcolor,
       } as CSSProperties
     })
-
+    // 拖动新增组件
     const dropToAddCom = async (event: any) => {
       event.preventDefault()
 

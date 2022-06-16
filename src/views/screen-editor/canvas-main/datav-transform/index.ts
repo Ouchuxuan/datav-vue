@@ -7,6 +7,10 @@ import { on, off } from '@/utils/dom'
 export type Direction = 'lt' | 't' | 'rt' | 'r' | 'rb' | 'b' | 'lb' | 'l'
 
 /**
+ *
+ * */
+
+/**
  * 双向指示
  */
 export type BidirectionalCursor = 'ew-resize' | 'ns-resize' | 'nesw-resize' | 'nwse-resize'
